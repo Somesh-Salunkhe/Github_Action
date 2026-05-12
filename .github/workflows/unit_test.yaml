@@ -13,11 +13,11 @@ jobs:
     steps:
         # Step 1: Check out the code from the repository
       - name : Check out code
-        uses: actions/checkout@v4  # @v4 -- latest commit number
+        uses: actions/checkout@v6  # @v4 -- latest commit number
 
         # Step 2 : Set up Python environment
       - name: Set up Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@v6
         with:
           python-version: '3.11'
         
